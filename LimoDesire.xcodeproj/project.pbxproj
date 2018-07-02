@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BFC21CF7888F581CE218DDA /* libPods-LimoDesireUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 088D6B0CA185E4E1F473EC58 /* libPods-LimoDesireUITests.a */; };
+		78948CED8B4E29E5415FB318 /* libPods-LimoDesire.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87AAA5CEDE9BBB4F7D2A2DD8 /* libPods-LimoDesire.a */; };
+		DFCC190B73ECABA65605265E /* libPods-LimoDesireTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B513789259402654D9C9BB /* libPods-LimoDesireTests.a */; };
+		E52C77A420CFFDEE0068111F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E52C77A320CFFDED0068111F /* GoogleService-Info.plist */; };
+		E536107B20D069F300092EB5 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E536107A20D069F300092EB5 /* RegisterViewController.m */; };
+		E586407720CEAABC00EED992 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E586407620CEAABC00EED992 /* AppDelegate.m */; };
+		E586407A20CEAABC00EED992 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E586407920CEAABC00EED992 /* ViewController.m */; };
+		E586407D20CEAABC00EED992 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E586407B20CEAABC00EED992 /* Main.storyboard */; };
+		E586407F20CEAABF00EED992 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E586407E20CEAABF00EED992 /* Assets.xcassets */; };
+		E586408220CEAABF00EED992 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E586408020CEAABF00EED992 /* LaunchScreen.storyboard */; };
+		E586408520CEAABF00EED992 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E586408420CEAABF00EED992 /* main.m */; };
+		E586408F20CEAAC000EED992 /* LimoDesireTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E586408E20CEAAC000EED992 /* LimoDesireTests.m */; };
+		E586409A20CEAAC000EED992 /* LimoDesireUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E586409920CEAAC000EED992 /* LimoDesireUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E586408B20CEAAC000EED992 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E586406A20CEAABC00EED992 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E586407120CEAABC00EED992;
+			remoteInfo = LimoDesire;
+		};
+		E586409620CEAAC000EED992 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E586406A20CEAABC00EED992 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E586407120CEAABC00EED992;
+			remoteInfo = LimoDesire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		088D6B0CA185E4E1F473EC58 /* libPods-LimoDesireUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LimoDesireUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C2A21EF2CE9D76FF623DBC7 /* Pods-LimoDesireTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LimoDesireTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LimoDesireTests/Pods-LimoDesireTests.release.xcconfig"; sourceTree = "<group>"; };
+		458C2CFDC59E0E67B8D9E24E /* Pods-LimoDesire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LimoDesire.release.xcconfig"; path = "Pods/Target Support Files/Pods-LimoDesire/Pods-LimoDesire.release.xcconfig"; sourceTree = "<group>"; };
+		7B3924D79283178A0803C5A3 /* Pods-LimoDesireTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LimoDesireTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LimoDesireTests/Pods-LimoDesireTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8208734BBEC9C9BEEC242E05 /* Pods-LimoDesireUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LimoDesireUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LimoDesireUITests/Pods-LimoDesireUITests.release.xcconfig"; sourceTree = "<group>"; };
+		87AAA5CEDE9BBB4F7D2A2DD8 /* libPods-LimoDesire.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LimoDesire.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9B513789259402654D9C9BB /* libPods-LimoDesireTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LimoDesireTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0DB33604DE2DBFF54534BB6 /* Pods-LimoDesireUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LimoDesireUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LimoDesireUITests/Pods-LimoDesireUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E52C77A320CFFDED0068111F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E536107920D069F300092EB5 /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		E536107A20D069F300092EB5 /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		E586407220CEAABC00EED992 /* LimoDesire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LimoDesire.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E586407520CEAABC00EED992 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E586407620CEAABC00EED992 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E586407820CEAABC00EED992 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E586407920CEAABC00EED992 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E586407C20CEAABC00EED992 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E586407E20CEAABF00EED992 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E586408120CEAABF00EED992 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E586408320CEAABF00EED992 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E586408420CEAABF00EED992 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E586408A20CEAAC000EED992 /* LimoDesireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LimoDesireTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E586408E20CEAAC000EED992 /* LimoDesireTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LimoDesireTests.m; sourceTree = "<group>"; };
+		E586409020CEAAC000EED992 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E586409520CEAAC000EED992 /* LimoDesireUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LimoDesireUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E586409920CEAAC000EED992 /* LimoDesireUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LimoDesireUITests.m; sourceTree = "<group>"; };
+		E586409B20CEAAC000EED992 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFFE89668A7764FCBC712BAE /* Pods-LimoDesire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LimoDesire.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LimoDesire/Pods-LimoDesire.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E586406F20CEAABC00EED992 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78948CED8B4E29E5415FB318 /* libPods-LimoDesire.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E586408720CEAAC000EED992 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFCC190B73ECABA65605265E /* libPods-LimoDesireTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E586409220CEAAC000EED992 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BFC21CF7888F581CE218DDA /* libPods-LimoDesireUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E389A4349D4EDA4E7461E8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFFE89668A7764FCBC712BAE /* Pods-LimoDesire.debug.xcconfig */,
+				458C2CFDC59E0E67B8D9E24E /* Pods-LimoDesire.release.xcconfig */,
+				7B3924D79283178A0803C5A3 /* Pods-LimoDesireTests.debug.xcconfig */,
+				1C2A21EF2CE9D76FF623DBC7 /* Pods-LimoDesireTests.release.xcconfig */,
+				C0DB33604DE2DBFF54534BB6 /* Pods-LimoDesireUITests.debug.xcconfig */,
+				8208734BBEC9C9BEEC242E05 /* Pods-LimoDesireUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		974183F9932253AE5CA04EBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87AAA5CEDE9BBB4F7D2A2DD8 /* libPods-LimoDesire.a */,
+				B9B513789259402654D9C9BB /* libPods-LimoDesireTests.a */,
+				088D6B0CA185E4E1F473EC58 /* libPods-LimoDesireUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E586406920CEAABC00EED992 = {
+			isa = PBXGroup;
+			children = (
+				E586407420CEAABC00EED992 /* LimoDesire */,
+				E586408D20CEAAC000EED992 /* LimoDesireTests */,
+				E586409820CEAAC000EED992 /* LimoDesireUITests */,
+				E586407320CEAABC00EED992 /* Products */,
+				8E389A4349D4EDA4E7461E8A /* Pods */,
+				974183F9932253AE5CA04EBB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E586407320CEAABC00EED992 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E586407220CEAABC00EED992 /* LimoDesire.app */,
+				E586408A20CEAAC000EED992 /* LimoDesireTests.xctest */,
+				E586409520CEAAC000EED992 /* LimoDesireUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E586407420CEAABC00EED992 /* LimoDesire */ = {
+			isa = PBXGroup;
+			children = (
+				E52C77A320CFFDED0068111F /* GoogleService-Info.plist */,
+				E586407520CEAABC00EED992 /* AppDelegate.h */,
+				E586407620CEAABC00EED992 /* AppDelegate.m */,
+				E586407820CEAABC00EED992 /* ViewController.h */,
+				E586407920CEAABC00EED992 /* ViewController.m */,
+				E586407B20CEAABC00EED992 /* Main.storyboard */,
+				E586407E20CEAABF00EED992 /* Assets.xcassets */,
+				E586408020CEAABF00EED992 /* LaunchScreen.storyboard */,
+				E586408320CEAABF00EED992 /* Info.plist */,
+				E586408420CEAABF00EED992 /* main.m */,
+				E536107920D069F300092EB5 /* RegisterViewController.h */,
+				E536107A20D069F300092EB5 /* RegisterViewController.m */,
+			);
+			path = LimoDesire;
+			sourceTree = "<group>";
+		};
+		E586408D20CEAAC000EED992 /* LimoDesireTests */ = {
+			isa = PBXGroup;
+			children = (
+				E586408E20CEAAC000EED992 /* LimoDesireTests.m */,
+				E586409020CEAAC000EED992 /* Info.plist */,
+			);
+			path = LimoDesireTests;
+			sourceTree = "<group>";
+		};
+		E586409820CEAAC000EED992 /* LimoDesireUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E586409920CEAAC000EED992 /* LimoDesireUITests.m */,
+				E586409B20CEAAC000EED992 /* Info.plist */,
+			);
+			path = LimoDesireUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E586407120CEAABC00EED992 /* LimoDesire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E586409E20CEAAC000EED992 /* Build configuration list for PBXNativeTarget "LimoDesire" */;
+			buildPhases = (
+				EA55B53E84E75AA40D27C51D /* [CP] Check Pods Manifest.lock */,
+				E586406E20CEAABC00EED992 /* Sources */,
+				E586406F20CEAABC00EED992 /* Frameworks */,
+				E586407020CEAABC00EED992 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LimoDesire;
+			productName = LimoDesire;
+			productReference = E586407220CEAABC00EED992 /* LimoDesire.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E586408920CEAAC000EED992 /* LimoDesireTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E58640A120CEAAC000EED992 /* Build configuration list for PBXNativeTarget "LimoDesireTests" */;
+			buildPhases = (
+				43B9237E3D82DEC62C3F38BD /* [CP] Check Pods Manifest.lock */,
+				E586408620CEAAC000EED992 /* Sources */,
+				E586408720CEAAC000EED992 /* Frameworks */,
+				E586408820CEAAC000EED992 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E586408C20CEAAC000EED992 /* PBXTargetDependency */,
+			);
+			name = LimoDesireTests;
+			productName = LimoDesireTests;
+			productReference = E586408A20CEAAC000EED992 /* LimoDesireTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E586409420CEAAC000EED992 /* LimoDesireUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E58640A420CEAAC000EED992 /* Build configuration list for PBXNativeTarget "LimoDesireUITests" */;
+			buildPhases = (
+				FE1AAE48C9D0DAB08AA724C8 /* [CP] Check Pods Manifest.lock */,
+				E586409120CEAAC000EED992 /* Sources */,
+				E586409220CEAAC000EED992 /* Frameworks */,
+				E586409320CEAAC000EED992 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E586409720CEAAC000EED992 /* PBXTargetDependency */,
+			);
+			name = LimoDesireUITests;
+			productName = LimoDesireUITests;
+			productReference = E586409520CEAAC000EED992 /* LimoDesireUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E586406A20CEAABC00EED992 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Apoorva Reed";
+				TargetAttributes = {
+					E586407120CEAABC00EED992 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					E586408920CEAAC000EED992 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = E586407120CEAABC00EED992;
+					};
+					E586409420CEAAC000EED992 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = E586407120CEAABC00EED992;
+					};
+				};
+			};
+			buildConfigurationList = E586406D20CEAABC00EED992 /* Build configuration list for PBXProject "LimoDesire" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E586406920CEAABC00EED992;
+			productRefGroup = E586407320CEAABC00EED992 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E586407120CEAABC00EED992 /* LimoDesire */,
+				E586408920CEAAC000EED992 /* LimoDesireTests */,
+				E586409420CEAAC000EED992 /* LimoDesireUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E586407020CEAABC00EED992 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E586408220CEAABF00EED992 /* LaunchScreen.storyboard in Resources */,
+				E52C77A420CFFDEE0068111F /* GoogleService-Info.plist in Resources */,
+				E586407F20CEAABF00EED992 /* Assets.xcassets in Resources */,
+				E586407D20CEAABC00EED992 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E586408820CEAAC000EED992 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E586409320CEAAC000EED992 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43B9237E3D82DEC62C3F38BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LimoDesireTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA55B53E84E75AA40D27C51D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LimoDesire-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE1AAE48C9D0DAB08AA724C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LimoDesireUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E586406E20CEAABC00EED992 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E586407A20CEAABC00EED992 /* ViewController.m in Sources */,
+				E586408520CEAABF00EED992 /* main.m in Sources */,
+				E586407720CEAABC00EED992 /* AppDelegate.m in Sources */,
+				E536107B20D069F300092EB5 /* RegisterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E586408620CEAAC000EED992 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E586408F20CEAAC000EED992 /* LimoDesireTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E586409120CEAAC000EED992 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E586409A20CEAAC000EED992 /* LimoDesireUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E586408C20CEAAC000EED992 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E586407120CEAABC00EED992 /* LimoDesire */;
+			targetProxy = E586408B20CEAAC000EED992 /* PBXContainerItemProxy */;
+		};
+		E586409720CEAAC000EED992 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E586407120CEAABC00EED992 /* LimoDesire */;
+			targetProxy = E586409620CEAAC000EED992 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E586407B20CEAABC00EED992 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E586407C20CEAABC00EED992 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E586408020CEAABF00EED992 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E586408120CEAABF00EED992 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E586409C20CEAAC000EED992 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E586409D20CEAAC000EED992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E586409F20CEAAC000EED992 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFFE89668A7764FCBC712BAE /* Pods-LimoDesire.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LimoDesire/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Apoorvareed.LimoDesire;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E58640A020CEAAC000EED992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 458C2CFDC59E0E67B8D9E24E /* Pods-LimoDesire.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LimoDesire/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Apoorvareed.LimoDesire;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E58640A220CEAAC000EED992 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B3924D79283178A0803C5A3 /* Pods-LimoDesireTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LimoDesireTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Apoorvareed.LimoDesireTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LimoDesire.app/LimoDesire";
+			};
+			name = Debug;
+		};
+		E58640A320CEAAC000EED992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C2A21EF2CE9D76FF623DBC7 /* Pods-LimoDesireTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LimoDesireTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Apoorvareed.LimoDesireTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LimoDesire.app/LimoDesire";
+			};
+			name = Release;
+		};
+		E58640A520CEAAC000EED992 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0DB33604DE2DBFF54534BB6 /* Pods-LimoDesireUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LimoDesireUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Apoorvareed.LimoDesireUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LimoDesire;
+			};
+			name = Debug;
+		};
+		E58640A620CEAAC000EED992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8208734BBEC9C9BEEC242E05 /* Pods-LimoDesireUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LimoDesireUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Apoorvareed.LimoDesireUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LimoDesire;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E586406D20CEAABC00EED992 /* Build configuration list for PBXProject "LimoDesire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E586409C20CEAAC000EED992 /* Debug */,
+				E586409D20CEAAC000EED992 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E586409E20CEAAC000EED992 /* Build configuration list for PBXNativeTarget "LimoDesire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E586409F20CEAAC000EED992 /* Debug */,
+				E58640A020CEAAC000EED992 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E58640A120CEAAC000EED992 /* Build configuration list for PBXNativeTarget "LimoDesireTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E58640A220CEAAC000EED992 /* Debug */,
+				E58640A320CEAAC000EED992 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E58640A420CEAAC000EED992 /* Build configuration list for PBXNativeTarget "LimoDesireUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E58640A520CEAAC000EED992 /* Debug */,
+				E58640A620CEAAC000EED992 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E586406A20CEAABC00EED992 /* Project object */;
+}
